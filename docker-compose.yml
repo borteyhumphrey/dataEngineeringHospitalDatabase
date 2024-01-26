@@ -14,7 +14,7 @@ services:
     volumes:
       - db-data:/var/lib/postgresql/data
       - ./hospitalMgmt:/docker-entrypoint-initdb.d
-    # ^ Maps the appleCase directory to the container's init directory
+    # ^ Maps the hospitalmgmt directory to the container's init directory
 
   pgadmin:
     container_name: pgadmin4_container
